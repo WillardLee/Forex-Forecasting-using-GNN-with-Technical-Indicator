@@ -1,0 +1,1 @@
+# Forex-Forecasting-using-GNN-with-Technical-Indicator
