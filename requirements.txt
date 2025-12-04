@@ -3,6 +3,7 @@ pandas>=2.0
 yfinance>=0.2
 ta>=0.11.0
 torch>=2.0
+# torch-geometric intentionally omitted from CI install; keep here for local installs
 torch-geometric
 scikit-learn
 pyyaml
