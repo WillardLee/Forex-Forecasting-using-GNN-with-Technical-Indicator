@@ -1,0 +1,23 @@
+data:
+  start: "2010-01-01"
+  window: 30
+  k: 2
+  horizon: 1
+cv:
+  fold_size: 252
+  step: 21
+model:
+  gat_hidden: 64
+  gat_heads: 4
+training:
+  epochs: 30
+  batch_size: 32
+  lr: 1e-3
+  seed: 123
+loss_weights:
+  class: 1.0
+  ret: 1.0
+  vol: 0.5
+backtest:
+  commission: 0.0002
+  slippage: 0.0001
